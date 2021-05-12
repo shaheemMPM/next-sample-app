@@ -1,14 +1,12 @@
-import Head from "next/head"
+import Meta from "../components/Meta";
 
 const about = () => {
-  return ( 
+  return (
     <>
-      <Head>
-        <title>WebDev News | About</title>
-      </Head>
+      <Meta title="WebDev News | About" />
       <h1>About Page</h1>
     </>
   );
-}
- 
+};
+
 export default about;
